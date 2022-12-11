@@ -55,7 +55,7 @@ public void back() {
 
 👎 Das lief nicht gut:
 
-*Bei meiner lösung muss man immer wenn sich die Domain ändert, den Code auch ändern
+* Bei meiner lösung muss man immer wenn sich die Domain ändert, den Code auch ändern
 
 🤗 verbessern kann ich beim nächsten mal, dass sich der Code immer der aktuellen Domain anpasst.
 
