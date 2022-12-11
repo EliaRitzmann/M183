@@ -12,8 +12,7 @@ Elia Ritzmann
 
 ## Beschreibung
 
-''java
-
+```java
 public void back() {
         FacesContext context = FacesContext.getCurrentInstance();
         HttpServletResponse response = (HttpServletResponse) context.getExternalContext().getResponse();
@@ -30,7 +29,7 @@ public void back() {
 
     }
     
-''
+```
 
 ✍️ Verwenden Sie drei verschiedene Medien, um zu zeigen, was Sie gelernt haben. Zum Beispiel:
 
