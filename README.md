@@ -8,9 +8,29 @@ Elia Ritzmann
 
 ## Was habe ich gelernt?
 
-📝 Beschreiben Sie in einem Satz **eine** Sache, die Sie bei diesem Projekt gelernt haben und die Sie in diesem Lern-Bericht dokumentieren.
+📝 Bei diesem Projekt habe ich gelernt, wie man eine Redirect URL überprüfen kann und somit wie man einen "Open Redirect" verhindert.
 
 ## Beschreibung
+
+''java
+
+public void back() {
+        FacesContext context = FacesContext.getCurrentInstance();
+        HttpServletResponse response = (HttpServletResponse) context.getExternalContext().getResponse();
+        try {
+            if(redirectionUrl.startsWith("http://localhost:8080/")){
+                
+                response.sendRedirect(redirectionUrl);
+            }
+
+        } catch (IOException ex) {
+            Logger.getLogger(NewsController.class.getName()).log(Level.SEVERE, null, ex);
+        }
+        return;
+
+    }
+    
+''
 
 ✍️ Verwenden Sie drei verschiedene Medien, um zu zeigen, was Sie gelernt haben. Zum Beispiel:
 
